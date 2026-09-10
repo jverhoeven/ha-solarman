@@ -11,5 +11,5 @@
   "issue_tracker": "https://github.com/davidrapan/ha-solarman/issues",
   "quality_scale": "custom",
   "requirements": ["aiofiles"],
-  "version": "0.0.0"
+  "version": "26.01.31.1"
 }
