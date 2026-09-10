@@ -159,7 +159,7 @@ parameters:
             value: "Enabled"
 
   - group: Control
-    update_interval: 300
+    update_interval: 60
     items:
       - name: "Self-check time"
         platform: number
@@ -183,7 +183,7 @@ parameters:
         registers: [0x0050]
 
   - group: Settings
-    update_interval: 300
+    update_interval: 60
     items:
       - name: "Battery Control Mode"
         platform: "select"
@@ -732,7 +732,7 @@ parameters:
           max: 100
 
   - group: Grid Parameters
-    update_interval: 300
+    update_interval: 60
     items:
       - name: Grid Voltage
         platform: "select"
@@ -782,7 +782,7 @@ parameters:
             value: "Both"
 
   - group: Work Mode
-    update_interval: 300
+    update_interval: 60
     items:
       - name: Energy Pattern
         platform: "select"
