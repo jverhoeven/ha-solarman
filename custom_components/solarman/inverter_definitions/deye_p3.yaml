@@ -195,6 +195,14 @@ parameters:
         value:
           bit: 2
 
+      - name: "Remote Lock"
+        description: Raw value of holding register 60, "factory only / engineer debug" in Deye's register list; the Deye ESP dongles show it as "Inverter remote lock". Read-only, hex.
+        rule: 7
+        hex:
+        delimiter: ""
+        registers: [0x003C]
+        icon: mdi:lock-outline
+
       - name: "" # On/Off Switch (Empty name so the sensor has same name as the device, looks good! Can be used once per platform though)
         platform: switch
         rule: 1
